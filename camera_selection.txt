@@ -1,0 +1,29 @@
+FRONT, RIGHT, REAR, LEFT(4 cameras)
+1.The state machine shall once run every 30msec
+
+cycle_per_camera=3
+
+output:
+FRONT //cycle 1 30ms completed
+FRONT //cycle 2 60ms completed
+FRONT //cycle 3 90ms com
+
+
+RIGHT //cycle 4 120ms completed
+RIGHT//cycle 5 150ms 
+RIGHT //
+
+REAR //
+..
+...
+
+
+char array[4]={0,0,0,0}; //all camera are unavai
+array[0]=(updateCamAvai==LEFT)?1:0;
+
+
+//after 4 condt
+
+return array[i] 
+
+
